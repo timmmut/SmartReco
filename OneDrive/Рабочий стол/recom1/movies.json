@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "title": "Inception",
+        "year": 2010,
+        "country": "USA",
+        "genre": "Sci-Fi"
+    },
+    {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "country": "USA",
+        "genre": "Drama"
+    },
+    {
+        "id": 3,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "country": "USA",
+        "genre": "Crime"
+    },
+    {
+        "id": 4,
+        "title": "The Dark Knight",
+        "year": 2008,
+        "country": "USA",
+        "genre": "Action"
+    },
+    {
+        "id": 5,
+        "title": "Forrest Gump",
+        "year": 1994,
+        "country": "USA",
+        "genre": "Drama"
+    },
+    {
+        "id": 6,
+        "title": "The Matrix",
+        "year": 1999,
+        "country": "USA",
+        "genre": "Sci-Fi"
+    },
+    {
+        "id": 7,
+        "title": "Goodfellas",
+        "year": 1990,
+        "country": "USA",
+        "genre": "Crime"
+    },
+    {
+        "id": 8,
+        "title": "Fight Club",
+        "year": 1999,
+        "country": "USA",
+        "genre": "Drama"
+    },
+    {
+        "id": 9,
+        "title": "Interstellar",
+        "year": 2014,
+        "country": "USA",
+        "genre": "Sci-Fi"
+    },
+    {
+        "id": 10,
+        "title": "The Godfather",
+        "year": 1972,
+        "country": "USA",
+        "genre": "Crime"
+    },
+    {
+        "id": 11,
+        "title": "Parasite",
+        "year": 2019,
+        "country": "South Korea",
+        "genre": "Thriller"
+    },
+    {
+        "id": 12,
+        "title": "Spirited Away",
+        "year": 2001,
+        "country": "Japan",
+        "genre": "Animation"
+    },
+    {
+        "id": 13,
+        "title": "The Green Mile",
+        "year": 1999,
+        "country": "USA",
+        "genre": "Drama"
+    },
+    {
+        "id": 14,
+        "title": "Gladiator",
+        "year": 2000,
+        "country": "USA",
+        "genre": "Action"
+    },
+    {
+        "id": 15,
+        "title": "Joker",
+        "year": 2019,
+        "country": "USA",
+        "genre": "Thriller"
+    },
+    {
+        "id": 16,
+        "title": "Amelie",
+        "year": 2001,
+        "country": "France",
+        "genre": "Romance"
+    },
+    {
+        "id": 17,
+        "title": "The Prestige",
+        "year": 2006,
+        "country": "USA",
+        "genre": "Thriller"
+    },
+    {
+        "id": 18,
+        "title": "Whiplash",
+        "year": 2014,
+        "country": "USA",
+        "genre": "Drama"
+    },
+    {
+        "id": 19,
+        "title": "Oldboy",
+        "year": 2003,
+        "country": "South Korea",
+        "genre": "Thriller"
+    },
+    {
+        "id": 20,
+        "title": "Blade Runner 2049",
+        "year": 2017,
+        "country": "USA",
+        "genre": "Sci-Fi"
+    }
+]
+

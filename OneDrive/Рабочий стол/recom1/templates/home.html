@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ email }}</h1>
+        
+        <div class="menu">
+            <a href="/movies" class="menu-button">Movies List</a>
+            <a href="/criteria-recommendation" class="menu-button">Recommendation by Criteria</a>
+            <a href="/ai-recommendation" class="menu-button">AI Recommendation</a>
+            <a href="/personal-recommendation" class="menu-button">Personal Recommendation</a>
+        </div>
+        
+        <div class="logout-link">
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+body {
+    padding: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid black;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 8px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.error {
+    color: red;
+}
+
+.checkbox-group label {
+    display: block;
+}
+
+.year-range input {
+    width: 48%;
+}
+
+.menu-button {
+    display: block;
+    padding: 12px;
+    margin: 8px 0;
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.movie-item {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 8px 0;
+}
+
+.rating-section {
+    margin-top: 8px;
+}
+
+.rating-section form {
+    display: block;
+}
+
+.rating-section select {
+    margin-right: 8px;
+}
+
+.rating-section button {
+    padding: 5px 10px;
+}
+

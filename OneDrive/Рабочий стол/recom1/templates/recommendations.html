@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ rec_type }} Recommendations</h1>
+        
+        {% if movies %}
+        <div class="movies-list">
+            {% for movie in movies %}
+            <div class="movie-item">
+                <div class="movie-title">{{ movie.title }}</div>
+                <div class="movie-info">{{ movie.year }} | {{ movie.country }} | {{ movie.genre }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>No movies found matching your preferences</p>
+        {% endif %}
+        
+        <div class="back-link">
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
+

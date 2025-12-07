@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preferences</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What do you like?</h1>
+        
+        <form method="POST">
+            <h3>Countries</h3>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="countries" value="USA"> USA</label>
+                <label><input type="checkbox" name="countries" value="South Korea"> South Korea</label>
+                <label><input type="checkbox" name="countries" value="Japan"> Japan</label>
+                <label><input type="checkbox" name="countries" value="France"> France</label>
+            </div>
+            
+            <h3>Genres</h3>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="genres" value="Sci-Fi"> Sci-Fi</label>
+                <label><input type="checkbox" name="genres" value="Drama"> Drama</label>
+                <label><input type="checkbox" name="genres" value="Crime"> Crime</label>
+                <label><input type="checkbox" name="genres" value="Action"> Action</label>
+                <label><input type="checkbox" name="genres" value="Thriller"> Thriller</label>
+                <label><input type="checkbox" name="genres" value="Animation"> Animation</label>
+                <label><input type="checkbox" name="genres" value="Romance"> Romance</label>
+            </div>
+            
+            <h3>Years</h3>
+            <div class="year-range">
+                <input type="number" name="year_from" placeholder="From" min="1900" max="2025" value="1990">
+                <input type="number" name="year_to" placeholder="To" min="1900" max="2025" value="2025">
+            </div>
+            
+            <button type="submit">Save</button>
+        </form>
+    </div>
+</body>
+</html>
+
